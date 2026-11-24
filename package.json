@@ -1,0 +1,14 @@
+{
+  "name": "siyuan-auto-navigation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only automatic document navigation for SiYuan.",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "test:browser": "node tests/browser.test.cjs",
+    "build": "python tools/build.py"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

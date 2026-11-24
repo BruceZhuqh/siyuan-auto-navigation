@@ -1,0 +1,39 @@
+{
+  "name": "siyuan-auto-navigation",
+  "author": "Bruce",
+  "url": "https://github.com/BruceZhuqh/siyuan-auto-navigation",
+  "version": "1.0.0",
+  "minAppVersion": "3.8.11",
+  "displayName": {
+    "default": "Automatic Navigation",
+    "zh-CN": "自动导航与目录"
+  },
+  "description": {
+    "default": "Dynamic parent links, child document tree and outline. Read-only, local API only.",
+    "zh-CN": "自动显示父级路径、子文档树和正文标题；只读、本地运行，不改写正文。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.zh-CN.md"
+  },
+  "keywords": [
+    "导航",
+    "目录",
+    "子文档",
+    "自动更新"
+  ],
+  "backends": [
+    "windows",
+    "linux",
+    "darwin",
+    "docker"
+  ],
+  "frontends": [
+    "desktop",
+    "desktop-window",
+    "browser-desktop"
+  ],
+  "disabledInPublish": true,
+  "icon": "icon.png",
+  "preview": "preview.png"
+}
